@@ -60,13 +60,6 @@ sqlalchemy>=1.4.0      # Database ORM
 psycopg2-binary>=2.9.0 # PostgreSQL adapter
 ```
 
-### Machine Learning
-```
-scikit-learn>=1.1.0    # ML algorithms
-xgboost>=1.6.0         # Gradient boosting
-lightgbm>=3.3.0        # Light gradient boosting
-```
-
 ### Visualization
 ```
 matplotlib>=3.5.0      # Static plots
@@ -138,13 +131,7 @@ pip install -r requirements_notebook.txt
 - ANOVA testing by property type
 - Pearson correlation significance
 
-### 7. 🤖 Machine Learning
-- Feature preparation
-- Multiple model training
-- Performance comparison
-- Feature importance analysis
-
-### 8. 💰 Market Analysis
+### 7. 💰 Market Analysis
 - Price segmentation (Budget/Mid-Range/Premium/Luxury)
 - City-based analysis
 - Investment opportunity identification
@@ -173,19 +160,6 @@ GROUP BY city
 ORDER BY avg_price DESC
 """
 city_analysis = db.get_data(query)
-```
-
-### Machine Learning
-```python
-# Prepare features
-features = ['bedrooms', 'bathrooms', 'square_feet']
-X = df[features].dropna()
-y = df['current_price'].dropna()
-
-# Train model
-from sklearn.ensemble import RandomForestRegressor
-model = RandomForestRegressor()
-model.fit(X, y)
 ```
 
 ## 🚨 Troubleshooting
@@ -232,20 +206,6 @@ print(f"Memory usage: {df.memory_usage(deep=True).sum() / 1024**2:.1f} MB")
 count      1000.000    1000.000     1000.000
 mean     450000.000       3.200        2.100
 std      200000.000       1.100        0.800
-```
-
-### Machine Learning Results
-```
-🤖 Machine Learning Analysis:
-   Linear Regression:
-     R² Score: 0.7234
-     RMSE: $89,432
-     MAE: $67,123
-
-🎯 Feature Importance:
-     square_feet: 0.456
-     bedrooms: 0.234
-     bathrooms: 0.189
 ```
 
 ### Market Insights
