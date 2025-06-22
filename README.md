@@ -4,7 +4,7 @@ A comprehensive real estate data collection and processing system that aggregate
 
 ## 🏗️ Architecture
 
-!Architecture(Architecture.png)
+![Architecture](Architecture.png)
 
 This project implements a scalable data pipeline with the following components:
 
