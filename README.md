@@ -16,7 +16,7 @@ This project implements a scalable data pipeline with the following components:
 ## 🚀 Features
 
 ### Data Collection
-- **Multi-source Integration**: RentSpider, RealtyMole, and extensible collector framework
+- **Multi-source Integration**: RentSpider, RentCast, and extensible collector framework
 - **Rate Limiting**: Intelligent rate limiting with exponential backoff
 - **Error Handling**: Comprehensive error handling and retry mechanisms
 - **Data Validation**: Schema validation and quality checks
