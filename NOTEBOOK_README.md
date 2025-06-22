@@ -39,12 +39,6 @@ jupyter notebook Real_Estate_Analysis_Complete.ipynb
 - **Price Analysis**: Distribution analysis and trend visualization
 - **Property Comparisons**: Type-based analysis and geographic insights
 
-### 🤖 Machine Learning
-- **Multiple Algorithms**: Linear Regression, Ridge Regression, Random Forest
-- **Model Comparison**: R², RMSE, MAE metrics for all models
-- **Feature Importance**: Automated feature ranking
-- **Train/Test Split**: Proper validation methodology
-
 ### 💰 Market Analysis
 - **Price Segmentation**: Quartile-based market segments
 - **City Analysis**: Geographic price comparisons
