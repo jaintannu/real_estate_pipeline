@@ -1,0 +1,22 @@
+{
+  "rentcast": {
+    "used": 9,
+    "reset_date": "2025-07-01T00:00:00",
+    "limit": 50
+  },
+  "zillow": {
+    "used": 0,
+    "reset_date": "2025-07-01T00:00:00",
+    "limit": 100
+  },
+  "rentspider": {
+    "used": 0,
+    "reset_date": "2025-07-01T00:00:00",
+    "limit": 1000
+  },
+  "demo": {
+    "used": 0,
+    "reset_date": "2025-07-01T00:00:00",
+    "limit": Infinity
+  }
+}
