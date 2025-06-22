@@ -15,6 +15,8 @@ This project implements a scalable data pipeline with the following components:
 - **Task Queue**: Celery for background processing with Redis broker
 - **Containerization**: Docker and Docker Compose for easy deployment
 
+![Database Design](DB.png)
+
 ## 🚀 Features
 
 ### Data Collection
